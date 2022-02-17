@@ -1,0 +1,35 @@
+.form-control{
+    box-shadow: none;
+    margin-top: 15px;
+}
+/* .form-control:focus{
+    margin-top: 15px !important;
+    box-shadow: none !important;
+} */
+.input{
+    margin-top: 15px !important;
+}
+.login-form{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    z-index: 999 ;
+}
+.login-parent{
+    height: 100vh;
+    background-color: aliceblue;
+}
+.login-parent .row{
+    height: 100vh;
+    align-items: center;
+}
+.login-bottom{
+    height: 50%;
+    position: absolute;
+    background-color: #f8b195;
+    left: 0;right: 0;bottom: 0;
+    z-index: 0 !important;
+}
+.z1{
+    z-index: 1;
+}

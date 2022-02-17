@@ -1,0 +1,183 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.navbar{
+    background-color: #EAE7DC !important;
+}
+.navbar-nav li {
+  background-color: #c06c84;
+  border-radius: 0px 15px 0 15px;
+  padding-right: 2px;
+  margin-right: 5px;
+  text-align: center;
+  margin-bottom: 5px;
+  
+
+}
+.navbar-brand{
+    color: #E85A4F !important;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #ffffff;
+    border-radius: 15px 0 15px 0;
+    padding: 3px;
+}
+.navbar-brand:hover{
+  
+  background-color: #dbcbd0;
+}
+.nav-link{
+    color: #ffffff !important;
+}
+.nav-link:hover{
+  color: black !important;
+}
+.content{
+    padding: 80px;
+    background-color: #eed3bd;
+}
+.footer{
+    background-color:#E85A4F !important ;
+    text-align: center;
+    padding: 0px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  
+}
+button{
+  background-color: #E85A4F;
+  box-shadow: none;
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+button:hover{
+  background-color:#EAE7DC;
+}
+.total-amount{
+  background-color: #E85A4F;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+.loader{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 999;
+}
+.spinner-border{
+  height: 100px;
+  width: 100px;
+}
+.btnsearch{
+  margin-bottom: 10px;
+  border-radius: 30px;
+  border: none;
+}
+input{
+  margin-right: 5px;
+}
+.nav-item button{
+  color: black !important;
+}
+
+.btnsearch form-control{
+border-radius: 5px;
+}
+.a {
+    text-decoration: none; /* strip natual underlines */
+    width: 271px;
+    line-height: 102px;
+    height: 102px;
+    margin: 3.6em 1.6em 0;
+    
+  }
+  
+  /**  colors and transitions back to normal
+    *  hex colors from flatuicolors.com   
+    **/
+  
+  .btn-1 {
+      background: #EAE7DC; /* BELIZE HOLE */
+      -webkit-transition: background 225ms ease!important;
+      -moz-transition: background 225ms ease!important;
+      transition: background 225ms ease!important;
+      border-radius: 30px;
+      color: #E85A4F;
+  }
+  
+  .btn-1:before, .btn-1:focus, .btn-1:hover {
+      background: #E85A4F; /* peter river */
+      color: black;
+  }
+  .banner h1:nth-child(1) {
+    background: linear-gradient(to right, #f8b195, #f67280, #c06c84);
+    font-family: 'Fira Code', monospace;
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0 0 0 35%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 570px;
+    /* animation: type 2s steps(40,end) forwards; */
+    animation: shring-animation 1.2s steps(40,end) 2s forwards, blink .5s step-end infinite alternate;
+    border-radius: 10px;
+    opacity: 0;
+    
+  }
+  @keyframes shring-animation {
+    0% {
+      background-position: 0 0;
+      opacity: 0;
+      width: 0;
+    }
+    1% {
+      background-position: 0 0;
+      opacity: 1;
+      border-right: 1px solid orange;
+    }
+    50% {
+      background-position: 150px 0;
+      opacity: 1;
+      border-right: 1px solid orange;
+    }
+    100% {
+      background-position: 400px 0;
+      opacity: 1;
+      border-right: 1px solid orange;
+    }
+  }
+  
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    1%, 99%{
+      border-right: 1px solid orange;
+    }
+    100%{
+      border-right: none;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  a{
+    text-decoration: none;
+  }
